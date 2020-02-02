@@ -7,8 +7,8 @@ import (
 
 	"github.com/gorilla/mux"
 
-	"github.com/Midlu/GoShit/Mine/TaskPad/db"
-	"github.com/Midlu/GoShit/Mine/TaskPad/utils"
+	"github.com/Midlu/TaskPad/db"
+	"github.com/Midlu/TaskPad/utils"
 )
 
 type taskMetricResponse struct {

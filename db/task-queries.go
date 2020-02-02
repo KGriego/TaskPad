@@ -9,7 +9,7 @@ import (
 
 	"github.com/lib/pq"
 
-	"github.com/Midlu/GoShit/Mine/TaskPad/utils"
+	"github.com/Midlu/TaskPad/utils"
 )
 
 //Task structure for tasks

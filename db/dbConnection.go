@@ -37,7 +37,7 @@ func Connection() (*sql.DB, error) {
 			return nil, err
 		}
 		//connection was successful, return db connection and no error
-		log.Println("Connection successful")
+		log.Println("1st Connection successful")
 		return db, nil
 	} else {
 		//attemp to connect to db with accquired string
@@ -54,7 +54,7 @@ func Connection() (*sql.DB, error) {
 			return nil, err
 		}
 		//connection was successful, return db connection and no error
-		log.Println("Connection successful")
+		log.Println("2nd Connection successful")
 		return db, nil
 	}
 }

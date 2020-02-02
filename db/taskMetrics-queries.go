@@ -6,7 +6,7 @@ import (
 	"net/url"
 	"time"
 
-	"github.com/Midlu/GoShit/Mine/TaskPad/utils"
+	"github.com/Midlu/TaskPad/utils"
 )
 
 //TaskMetric strucuture for task metrics

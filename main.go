@@ -7,8 +7,8 @@ import (
 	"os"
 	"time"
 
-	c "github.com/Midlu/GoShit/Mine/TaskPad/controllers"
-	"github.com/Midlu/GoShit/Mine/TaskPad/db"
+	c "github.com/Midlu/TaskPad/controllers"
+	"github.com/Midlu/TaskPad/db"
 	"github.com/gorilla/mux"
 	"github.com/joho/godotenv"
 )

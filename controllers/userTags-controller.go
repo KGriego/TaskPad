@@ -6,7 +6,7 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/Midlu/GoShit/Mine/TaskPad/db"
+	"github.com/Midlu/TaskPad/db"
 	"github.com/gorilla/mux"
 )
 
