@@ -14,7 +14,6 @@ type SpaHandler struct {
 }
 
 func (h SpaHandler) ServeHTTP(w http.ResponseWriter, r *http.Request) {
-	log.Println("At SpaHandler route.")
 	//get the path from the url???? but whyyyyy?? to access the directory/files from where the server is located
 	path, err := filepath.Abs(r.URL.Path)
 	//if there is an err stop here
