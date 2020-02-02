@@ -1,1 +1,1 @@
-web: bin/taskpad
+web: TaskPad
