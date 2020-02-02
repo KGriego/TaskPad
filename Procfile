@@ -1,1 +1,1 @@
-web: gin -i run main.go
+web: run main.go
