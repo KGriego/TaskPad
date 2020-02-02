@@ -17,6 +17,10 @@ import (
 func init() {
 	//try to get the .env file, return an error if not found
 	err := godotenv.Load()
+	//Log all the env variables
+	// for _, pair := range os.Environ() {
+	// 	fmt.Println(pair)
+	// }
 	//if there is an error
 	if err != nil {
 		log.Fatalln("No .env file found! Please make one!")
