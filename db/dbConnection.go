@@ -17,6 +17,7 @@ func Connection() (*sql.DB, error) {
 	//attemp to get db connection string from env
 	dbConnectionString := os.Getenv("POSTGRES_CONNECTION_STRING")
 	databaseURL := os.Getenv("DATABASE_URL")
+	log.Println(databaseURL)
 	//if no db connection string exists stop here
 	if dbConnectionString == "" && databaseURL == "" {
 		log.Fatalln("A DB connection string is required. Aborting")
