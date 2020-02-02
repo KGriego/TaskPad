@@ -1,1 +1,1 @@
-web: bin/taskpad
+web: gin -i run main.go
