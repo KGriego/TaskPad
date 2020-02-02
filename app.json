@@ -1,0 +1,11 @@
+{
+  "name": "Taskpad: A todo app with a go backend.",
+  "description": "Go get them!",
+  "keywords": [
+    "go",
+    "backend",
+    "tasks"
+  ],
+  "website": "http://github.com/Midlu/taskpad",
+  "repository": "http://github.com/Midlu/taskpad"
+}
