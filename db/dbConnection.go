@@ -22,7 +22,7 @@ func Connection() (*sql.DB, error) {
 	if dbConnectionString == "" && databaseURL == "" {
 		log.Fatalln("A DB connection string is required. Aborting")
 		return nil, errors.New("A DB connection string is required. Aborting")
-	} else if databaseURL != "" {
+	} else if databaseURL == "" {
 		//attemp to connect to db with accquired string
 		db, err := sql.Open("postgres", databaseURL)
 		//if there is an err when opening the connection, stop here
