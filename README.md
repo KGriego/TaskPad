@@ -1,7 +1,6 @@
 # TaskPad
 
-The NSM Operations Portal is designed to enable firewall and security
-automation to the American Express organization.
+Description
 
 ## Front-End Development Environment
 
